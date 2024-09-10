@@ -1,0 +1,57 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:blueviolet ;
+    margin: 0 auto;
+    padding: 0%;
+    text-align: center;
+    
+}
+
+img {
+    width: 180px;
+}
+/* Mobile Devices */
+@media screen and (max-width: 600px) {
+    .column {
+        /* styles Mobile Devices */
+        width: 100%;
+        color: red;
+        
+    }
+}
+/* Tablets (portrait) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .column {
+        /* Styles for tablets in portrait mode */
+        width: 100%;
+        color: aqua;
+        
+    }
+}
+/* Tablets (landscape) and small laptops */
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+    .column {
+        /* Styles for tablets in landscape mode or small laptops */
+        width: 100%;
+        color: chartreuse;
+        
+    }
+}
+/* Large laptops and desktops */
+@media screen and(min-width: 1501px) and (max-width:1600px) {
+    .column{
+        /* styles laptops and desktops*/
+        width: 100%;
+        color: brown;
+        
+    }
+}
+/* Extra large desktops */
+@media screen and (min-width: 1601px) {
+    .column {
+        /* Styles for extra large desktops */
+        width: 100%;
+        color: darkblue;
+    
+    }
+}
